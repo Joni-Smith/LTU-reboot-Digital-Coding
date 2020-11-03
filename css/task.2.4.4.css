@@ -1,14 +1,16 @@
 .container {
     position: relative;
 }
-.img {width:410px}
+.img {width: 100px;
+    height: 100px;
 
-.span {
+}
+
+.top{
     position: absolute;
-    top: 40px;
-    right: 30px;
-    bottom: 40px;
+    bottom: 15px;
     left: 30px 
     background-color green;
+    z-index: 2;
 
 }
