@@ -4,6 +4,15 @@
     padding: 20%;
     
 }
+
+.search-container{
+    position: relative;
+    margin-top: 40px;
+    padding: 1em;
+    border-radius: 22px;
+   
+}
+
 .search{
     position: absolute;
     top:17px;
