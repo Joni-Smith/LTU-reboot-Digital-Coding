@@ -1,0 +1,23 @@
+.container {
+    width: 90%;
+    margin: 10px auto;
+    padding: 20%;
+    
+}
+.search{
+    position: absolute;
+    top:17px;
+    left: 10px;
+
+
+
+}
+
+.microphone{
+
+position: absolute;
+top: 15px;
+right: 8px;
+
+
+}
