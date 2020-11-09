@@ -1,0 +1,18 @@
+img {
+    max-width: 500px;
+}
+.image_container {
+    position: relative;
+}
+
+.image_container .image_caption {
+    position: absolute;
+    margin: 0px;
+    background-color: white;
+    border: 1px solid black;
+    top: 10px;
+    left: 10px;
+    padding: 10px;
+    
+
+}
