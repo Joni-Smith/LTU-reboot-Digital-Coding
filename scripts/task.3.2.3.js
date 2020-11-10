@@ -1,9 +1,5 @@
-function FullName( firstName, lastName ) {
-
-    return firstName + ' ' + lastName ;
-
-}
-
- var UserName = fullName("Joni",  "Smith" );
-
- UserName();
+function fullName( firstName, lastName ) {
+    return firstName + ' ' +  lastName ; 
+  }
+  
+  var usersName = fullName('Joni', 'Smith');
