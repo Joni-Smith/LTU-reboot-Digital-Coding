@@ -1,4 +1,4 @@
-var temperature = 50;
+var temperature = 40;
 
 if( temperature < 50 ) {
 
