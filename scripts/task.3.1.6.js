@@ -1,4 +1,4 @@
-var preTip = 30.00;
+var preTip = 3;
 
 var tipPercentage = 12.5;
 
