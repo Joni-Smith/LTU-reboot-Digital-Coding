@@ -1,9 +1,12 @@
 function calculator( number1, number2, operator) {
 
+    var result = ' ';
+
 switch (operator ) {
 
     case '+' :
-        console.log ( number1 + number2);
+        result = number1 + number2;
+        console.log ( number1 + ' + ' + number2 + '=' + result);
         break;
 
         case '-' :
@@ -17,3 +20,9 @@ switch (operator ) {
 
 
 }
+
+// + Addition
+// - Subtraction
+// / Division
+// * Multiply
+// % Modulus
