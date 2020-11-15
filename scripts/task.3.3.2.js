@@ -1,16 +1,18 @@
 function drinkOrder( drink, size ) {
 
-    switch (drink) {
+var drinkToLowerCase = drink.toLowerCase ();
+
+    switch (drinkToLowerCase) {
         case "cola" :
-      console.log("You have ordered a "  + drink );
+      console.log("You have ordered a "  + size + " " + drinkToLowerCase);
             break;
 
         case "lemonade" :
-            console.log("You have ordered a "  + drink );
+            console.log("You have ordered a "  + size + " " + drinkToLowerCase );
         break;
 
         case "orangeade" :
-            console.log("You have ordered a "  + drink );
+            console.log("You have ordered a "  + size + " " + ddrinkToLowerCase );
         break;
 
         default:
