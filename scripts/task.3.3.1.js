@@ -8,3 +8,5 @@ function percentageCalulator (number, percentage) {
 
 }
 
+console.log (percentageCalulator (300, 25));
+
