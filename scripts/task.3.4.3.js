@@ -1,0 +1,1 @@
+var favouriteFoods = ['Pizza', 'Icecream', 'Kebab', 'Chips'];
