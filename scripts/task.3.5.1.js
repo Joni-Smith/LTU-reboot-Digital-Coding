@@ -73,7 +73,7 @@ for( var index = 0; index < arr.length; index++ ) {
 }
 
 //4. Reutrn the totalPrice variable
-return totalPrice;
+return totalPrice.toFixed(2);
 
     }
 //5. console.log the returned value
