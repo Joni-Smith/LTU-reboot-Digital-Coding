@@ -59,3 +59,30 @@ let shoppingCart = [
     quantity:3,
     price:.4
     }];
+
+    function discountAmount( arr, discountAmount, type) { //1.
+
+
+        var totalPrice = 0;
+
+        for( var index = 0; index < arr.length; index++ ) {
+ 
+            if( arr[index].type === type); { //2. 
+
+
+                var discount = ( arr[index].price * discountAmount) / 100;
+
+                    totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
+
+            } else if (type === 'any') {
+                
+                var discount = ( arr[index].price * discountAmount) / 100;
+
+                totalPrice = totalPrice + ( arr[index].price - discount) * arr[index].quantity;
+
+
+            }
+        }
+
+
+    }
