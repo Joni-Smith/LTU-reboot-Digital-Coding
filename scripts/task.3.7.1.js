@@ -37,5 +37,6 @@ listItems.forEach( function( item ) {
     
     item.addEventListener("click", function(){
         toggleActiveClass( item );
+        toggleImages( item.dataset.class);
     });
 })
