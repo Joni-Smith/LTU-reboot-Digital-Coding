@@ -6,15 +6,36 @@ function toggleActiveClass( active ) {
 
 listItems.forEach( function( item ) {
     item.classList.remove("active");
-
 })
 
     active.classList.add("active");
 
 }
 
+function toggleImages( dataClass ) {
+
+    if( dataClass ==="all"){
+
+        allImages.forEach( function( image ){
+            image.style.display = "block";
+        })
+
+
+    } else {
+
+        allImages.forEach( image =>{ 
+            image.dataset.class === dataClass ?
+        image.style.display = "block" :
+        image.style.display = "none";
+    })
+    }
+
+} // end of toggleimages function
+
+
 listItems.forEach( function( item ) {
-    item.addEventListener("click," function(){
+    
+    item.addEventListener("click", function(){
         toggleActiveClass( item );
     });
 })
