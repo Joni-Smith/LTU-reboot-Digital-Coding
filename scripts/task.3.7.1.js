@@ -12,3 +12,9 @@ listItems.forEach( function( item ) {
     active.classList.add("active");
 
 }
+
+listItems.forEach( function( item ) {
+    item.addEventListener("click," function(){
+        toggleActiveClass( item );
+    });
+})
