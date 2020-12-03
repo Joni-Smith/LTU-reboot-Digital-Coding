@@ -8,6 +8,7 @@
 </head>
 <body>
     <main>
+        <h1>JavaScript Task 4.2.2</h1>
         <p>to view this task you will need to open the console developer</p>
     </main>
     <aside>
@@ -33,6 +34,25 @@
                 hasRead:true,
             },
         ];
+
+        //LOOP through each item in the book list array
+        for(counter = 0; counter < arrBookList.length; counter ++){
+            var objCurrentBook = arrBookList[counter];
+            //THEN create a message to output that is {title} by {author}
+            var strMessage = objCurrentBook.title + ' by ' + objCurrentBook.author;
+            //IF the book has already been read
+            if(objCurrentBook.hasRead){
+                //THEN prepend the message with "You have read "
+                strMessage = "You have read " + strMessage;
+            } 
+            //ELSE
+            else {
+                //THEN prepend the message with "You need to read "
+                strMessage = "You need to read " + strMessage;
+            }
+            console.log(strMessage);
+        }
+                
     </script>
 </body>
 </html>
